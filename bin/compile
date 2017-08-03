@@ -93,6 +93,7 @@ fi
 
 $extract $CACHE_DIR/$ELASTICSEARCH_PACKAGE
 
+echo $ELASTICSEARCH_DIR
 
 echo "Exporting PATH" | indent
 echo 'export PATH="$PATH:'${ELASTICSEARCH_DIR##*/}'/bin"' > $INIT_SCRIPT
