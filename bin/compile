@@ -104,11 +104,3 @@ echo $PATH
 elasticsearch_plugin=${ELASTICSEARCH_DIR##*/}'/bin/elasticsearch-plugin' 
 xpack="x-pack"
 $elasticsearch_plugin install $xpack
-
-
-#####################################
-# MISC Initialization ###############
-#####################################
-
-#Run arbitrary compile script in app
-sh compile.sh
